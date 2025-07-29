@@ -1,0 +1,38 @@
+
+body{
+
+    background: linear-gradient(rgba(169, 236, 253, 0.849),rgb(248, 248, 248));
+    text-align: center;
+    height: 700px;
+}
+h1{
+    margin-top: 120px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{font-size: large;
+
+    height: 38px;
+    width: 200px;
+    border-radius: 12px;
+    box-shadow:2px 2px 4px 4px rgb(135, 135, 139) ;
+}
+button{
+    background-color: rgb(192, 255, 255);
+    margin-top: 100px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow:1px 1px 4px 4px rgb(135, 135, 139) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+button:hover{
+    
+     background: rgb(40, 40, 53);
+     color: azure;
+     transition: background 1s, color 1s;
+    }
+.result{
+    font-size :24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
